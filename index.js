@@ -6,7 +6,8 @@ const https = require('https')
 const storage = new Storage();
 
 const bucketName = 'pixteller';
-const filename = 'screenshot.png';
+
+const filename = Date.now()+'_screenshot.png';
 const screenshotPath = '/tmp/' + filename;
 const optimizedScreenshotPath = '/tmp/optimized.png'
 

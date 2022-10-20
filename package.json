@@ -14,7 +14,7 @@
     "@google-cloud/storage": "^6.5.2",
     "fluent-ffmpeg": "^2.1.2",
     "node-fetch": "^3.2.10",
-    "puppeteer": "^19.0.0"
+    "puppeteer": "^18.2.1"
   },
   "engines": {
     "node": "^16"
