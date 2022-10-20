@@ -16,7 +16,7 @@ exports.screenshot = async (req, res) => {
 
 
     const page = await browser.newPage();
-    await page.goto('https://google.com');
+    await page.goto(req.query.url || 'https://google.com');
     await page.screenshot({
         path: screenshotPath,
     });
